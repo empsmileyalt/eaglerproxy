@@ -8,7 +8,11 @@
     "outDir": "build",
     "resolveJsonModule": true,
     "rootDir": "src",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false
   },
   "include": ["src/**/*.json", "src/**/*"]
 }
